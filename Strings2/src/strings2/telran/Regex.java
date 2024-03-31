@@ -22,7 +22,7 @@ public class Regex {
 
 		public static String mobileIsraelPhone() {
 
-			String regex = "\\+972-?[5]\\d-?\\d{7}";
+			String regex = "\\+972-?5\\d-?\\d{7}";
 			return regex;
 		}
 	}
